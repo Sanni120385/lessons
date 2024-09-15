@@ -1,0 +1,46 @@
+@import url(reset.css);
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+}
+.item__menu{
+	color: blue;
+}
+div.text__introduction{
+	color: blueviolet;
+}
+div.climate{
+	color: brown;
+}
+#population{
+	color: chartreuse;
+}
+.religion{
+	color: chocolate;
+}
+#time_zone{
+	color: cadetblue;
+}
+.transport p{
+	color: darkgreen;
+}
+.kitchen p{
+	color: darkred;
+}
+.atraktsiyi{
+	color: yellow;
+}
+#cultural_heritage{
+	color: deeppink;
+}
+.medicine p{
+	color: green;
+}
+ul{
+	color: coral;
+}
+.footer{
+	color: gold;
+}
