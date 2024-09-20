@@ -1,0 +1,89 @@
+/* Підключення з Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,700;1,9..40,700&display=swap');
+/* Google Fonts (Plugin) */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,500,);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:regular,600);
+@import url("reset.css");
+/* Локальне підлючення шрифту */
+@font-face {
+	font-family: 'Futura PT Cond Book';
+	src: url("../fonts/transfonter.org-20240920-094643/FuturaPTCond-BookObl.woff2") format('woff2');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+/* в цій строчці стояв reset.css та на провірці була помилка, довелось підняти його над локальним підключенням. */
+h1{
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 700;
+	text-align: center;
+	color: red;
+	text-decoration: overline;
+	font-size: 88px;
+	line-height: 95px;
+}
+.about__text p{
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: 400;
+	text-align: left;
+	font-size: 24px;
+	line-height: 42px;
+	text-align: center;
+}
+.introduce__title{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	text-align: center;
+	color: green;
+	text-decoration: underline;
+	font-size: 50px;
+	line-height: 66px;
+	letter-spacing: 1px;
+}
+.introduce__text > p{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+letter-spacing: 10px;
+}
+#professional{
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: 600;
+	text-align: center;
+	color: blue;
+	font-size: 38px;
+	line-height: 50px;
+	text-decoration: line-through;
+}
+.professional > p{
+	font-family: Work sans;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	word-spacing: 10px;
+	text-align: right;
+	text-transform: capitalize;
+}
+
+a{
+	text-decoration: none;
+	text-shadow: 2px 2px 2px black;
+	font-family: Futura PT Cond Book;
+color: blueviolet;
+}
+.term{
+	font-family:Futura PT Cond Book ;
+	font-style: normal;
+	font-weight: 400;
+	color: blueviolet;
+	
+}
