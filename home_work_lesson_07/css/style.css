@@ -44,7 +44,7 @@ h1{
 	padding-block: 24px;
 	padding-inline: 24px;
 	margin: 0 auto;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 .business-price a:hover{
 	box-shadow: 5px 5px 30px 5px #4A3AFF;
@@ -109,7 +109,7 @@ padding-inline: 208.49px;
 	margin: 0 auto;
 	font-family: Epilogue,sans-serif;
 	padding-top: 20px;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 .page img{
 	min-width: 970px;
@@ -289,9 +289,8 @@ h3{
 	background-size: contain;
 background-attachment: fixed;
 margin: 0 auto;
-margin-bottom: 70px;
 box-shadow: 5px 5px 50px 5px #391400;
-
+margin-bottom: 50px;
 }
 .game-title h3{
 	margin-left: 410px;
@@ -313,23 +312,15 @@ background: linear-gradient(90deg, rgba(238, 174, 202, 0.7) 0%, rgba(148, 187, 2
 			margin-left: 30px;
 			margin-top: -30px;
 			background: linear-gradient(90deg, rgba(238, 174, 202, 0.7) 0%, rgba(148, 187, 233, 0.7) 100%);
-opacity: 0;
-
+visibility: hidden;
 }
-.game-1-2:hover{
-	opacity: 1;
-}
-
 .game-1-3-vertically{
 width: 30px;
 height: 60px;
 background: linear-gradient(90deg, rgba(238, 174, 202, 0.7) 0%, rgba(148, 187, 233, 0.7) 100%);
 margin-left: 250px;
 margin-top: -30px;
-opacity: 0;
-}
-.game-1-3-vertically:hover{
-	opacity: 1;
+visibility: hidden;
 }
 .game-1-4-horizontally{
 	width: 400px;
@@ -337,10 +328,7 @@ opacity: 0;
 	background: linear-gradient(90deg, rgba(238, 174, 202, 0.7) 0%, rgba(148, 187, 233, 0.7) 100%);
 	margin-left: 250px;
 	margin-top: -15px;
-	opacity: 0;
-}
-.game-1-4-horizontally:hover{
-	opacity: 1;
+   visibility: hidden;
 }
 .game-1-5-vertically{
 		width: 20px;
@@ -348,10 +336,7 @@ opacity: 0;
 			background: linear-gradient(90deg, rgba(238, 174, 202, 0.7) 0%, rgba(148, 187, 233, 0.7) 100%);
 			margin-left: 630px;
 			margin-top: -15px;
-			opacity: 0;
-}
-.game-1-5-vertically:hover{
-	opacity: 1;
+			visibility: hidden;
 }
 .game-1-6-horizontally{
 	width: 400px;
@@ -359,10 +344,7 @@ opacity: 0;
 		background: linear-gradient(90deg, rgba(238, 174, 202, 0.7) 0%, rgba(148, 187, 233, 0.7) 100%);
 		margin-left: 250px;
 		margin-top: -30px;
-		opacity: 0;
-}
-.game-1-6-horizontally:hover{
-	opacity: 1;
+		visibility: hidden;
 }
 .game-1-7-vertically{
 	width: 20px;
@@ -370,10 +352,7 @@ opacity: 0;
 		background: linear-gradient(90deg, rgba(238, 174, 202, 0.7) 0%, rgba(148, 187, 233, 0.7) 100%);
 		margin-left: 250px;
 		margin-top: -100px;
-		opacity: 0;
-}
-.game-1-7-vertically:hover{
-	opacity: 1;
+		visibility: hidden;
 }
 .game-1-8-horizontally{
 	width: 180px;
@@ -381,10 +360,7 @@ opacity: 0;
 		background: linear-gradient(90deg, rgba(238, 174, 202, 0.7) 0%, rgba(148, 187, 233, 0.7) 100%);
 		margin-left: 90px;
 		margin-top: -100px;
-		opacity: 0;
-}
-.game-1-8-horizontally:hover{
-	opacity: 1;
+		visibility: hidden;
 }
 .game-1-9-vertically{
 	width: 30px;
@@ -392,10 +368,7 @@ opacity: 0;
 		background: linear-gradient(90deg, rgba(238, 174, 202, 0.7) 0%, rgba(148, 187, 233, 0.7) 100%);
 		margin-left: 90px;
 		margin-top: -30px;
-		opacity: 0;
-}
-.game-1-9-vertically:hover{
-	opacity: 1;
+		visibility: hidden;
 }
 .game-1-10-horizontally{
 	width: 400px;
@@ -403,10 +376,7 @@ opacity: 0;
 		background: linear-gradient(90deg, rgba(238, 174, 202, 0.7) 0%, rgba(148, 187, 233, 0.7) 100%);
 		margin-left: 90px;
 		margin-top: -20px;
-		opacity: 0;
-}
-.game-1-10-horizontally:hover{
-	opacity: 1;
+		visibility: hidden;
 }
 .game-1-11-vertically{
 	width: 40px;
@@ -418,19 +388,57 @@ opacity: 0;
 		background: linear-gradient(90deg, rgba(238, 174, 202, 0.7) 0%, rgba(148, 187, 233, 0.7) 100%);
 		margin-left: 450px;
 		margin-top: -15px;
-		opacity: 0;
+		visibility: hidden;
 }
-.game-1-11-vertically:hover{
-	opacity: 1;
+.game-1-1:hover+.game-1-2,
+.game-1-2:hover {
+	visibility: visible;
+}
+.game-1-2:hover+.game-1-3-vertically,
+.game-1-3-vertically:hover {
+	visibility: visible;
+}
+.game-1-3-vertically:hover+.game-1-4-horizontally,
+.game-1-4-horizontally:hover {
+	visibility: visible;
+}
+.game-1-4-horizontally:hover+.game-1-5-vertically,
+.game-1-5-vertically:hover {
+	visibility: visible;
+}
+.game-1-5-vertically:hover+.game-1-6-horizontally,
+.game-1-6-horizontally:hover {
+	visibility: visible;
+}
+.game-1-6-horizontally:hover+.game-1-7-vertically,
+.game-1-7-vertically:hover {
+	visibility: visible;
+}
+.game-1-7-vertically:hover+.game-1-8-horizontally,
+.game-1-8-horizontally:hover {
+	visibility: visible;
+}
+.game-1-8-horizontally:hover+.game-1-9-vertically,
+.game-1-9-vertically:hover{
+	visibility: visible;
+}
+.game-1-9-vertically:hover+.game-1-10-horizontally,
+.game-1-10-horizontally:hover {
+	visibility: visible;
+}
+.game-1-10-horizontally:hover+.game-1-11-vertically,
+.game-1-11-vertically:hover {
+	visibility: visible;
 }
 .footer{
 	max-width: 1920px;
-	min-height: 70px;
-	font-size: 30px;
+	min-height: 60px;
+	font-size: 34px;
 	font-weight: 700;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 15px;
 	color: #391400;
 	margin-bottom: 10px;
 	background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+	
 }
