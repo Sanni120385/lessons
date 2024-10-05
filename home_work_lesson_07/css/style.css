@@ -112,12 +112,10 @@ padding-inline: 208.49px;
 	padding-top: 20px;
 	margin-bottom: 50px;
 }
-.page img{
-	max-width: 1205px;
-	min-height: 592px;
-	padding-inline-start: 235px;
-	/* margin: 0 auto; Не знаю чому, але зображення не центрується, як що прибрати падінг */
-	margin-bottom: 74px;
+.page {
+max-width: 970px;
+margin: 0 auto;
+margin-bottom: 74px;
 }
 .text{
 	max-width: 570px;
