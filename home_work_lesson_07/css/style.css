@@ -37,7 +37,7 @@ h1{
 }
 
 .business-price{
-	max-width: 542.983px;
+	max-width: 543px;
 	min-height: 617px;
 	border-radius: 56px;
 	background: var(--Neutral-Colors-Color-300, #F0F0F6);
@@ -51,36 +51,37 @@ h1{
 	border-radius: 56px;
 }
 .basic{
-	max-width: 494.98001px;
-	min-height: 271.17041px;
+	max-width: 495px;
+	min-height: 271px;
 	border-radius: 34px;
 	background: var(--Primary-Colors-Primary-Purple, #4A3AFF);
-	
+	text-align: center;
+
 }
 .basic p{
-text-align: center;
+
 color: var(--Neutral-Colors-Color-100, #FFF);
 font-size: 30px;
 font-weight: 700;
 line-height: 106.667%;
-padding-top: 44.59px;
+padding-top: 44.59px; 
 padding-inline: 208.49px;
 }
 .basic img{
-	text-align: center;
+	
 	color: var(--Neutral-Colors-Color-100, #FFF);
 	font-size: 116px;
 	font-weight: 700;
 	line-height: 103.448%;
-	padding-inline: 138.99px;
+   padding-inline: 139px; 
 }
 .basic span{
-	text-align: center;
+	
 	color: var(--Neutral-Colors-Color-100, #FFF);
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 110%;
-	padding-left: 177.99px;
+	
 }
 .price-items{
 	margin-top: 33.83px;
@@ -96,14 +97,14 @@ padding-inline: 208.49px;
 .basic-item:hover{
 	text-decoration: underline;
 	color: blue;
-	font-size: 30px;
+	
 }
-.basic-item:not(:nth-of-type(4)){
+.basic-item:not(:last-child){
 	margin-bottom: 26px;
 }
 
 .agensy{
-  width: 1440px;
+   width: 1440px;
 	min-height: 2234px;
 	background: #FDF0E9;
 	margin: 0 auto;
@@ -112,14 +113,17 @@ padding-inline: 208.49px;
 	margin-bottom: 50px;
 }
 .page img{
-	min-width: 970px;
+	max-width: 1205px;
 	min-height: 592px;
-	padding-left: 235px;
+	padding-inline-start: 235px;
+	/* margin: 0 auto; Не знаю чому, але зображення не центрується, як що прибрати падінг */
 	margin-bottom: 74px;
 }
-.text1 h2{
+.text{
 	max-width: 570px;
-	min-height: 66px;
+	margin: 0 auto;
+}
+.text1 h2{
 	color: var(--Text_Dark, #391400);
 	font-size: 20px;
 	font-weight: 400;
@@ -128,8 +132,6 @@ padding-inline: 208.49px;
 	margin-bottom: 32px;
 }
 .text1 p{
-	max-width: 570px;
-	min-height: 106px;
 	color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
 	font-size: 16px;
 	font-weight: 400;
@@ -139,18 +141,13 @@ padding-inline: 208.49px;
 }
 h2{
 	min-width: 274px;
-	min-height: 32px;
 	color: var(--Text_Dark, #391400);
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 133.333%;
-	margin-left: 435px;
 	margin-bottom: 35px;
 }
-
 .text2 p{
-	max-width: 570px;
-	min-height: 106px;
 	color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
 	font-size: 16px;
 	font-weight: 400;
@@ -165,24 +162,18 @@ h2{
 }
 .item{
 	min-width: 131px;
-	min-height: 32px;
 	color: var(--Text_Dark, #391400);
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 200%;
-	margin-left: 435px;
 	background: url("../img/oval.svg") 8px no-repeat;
 	padding-left: 24px;
 }
 .item:hover{
-	font-size: 18px;
 	text-decoration: underline;
 	color: #EF6D58;
 }
-
 .text3 p{
-	max-width: 570px;
-	min-height: 68px;
 	color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
 	font-size: 16px;
 	font-weight: 400;
@@ -198,20 +189,15 @@ h2{
 }
 .number-item{
 	min-width: 152px;
-	min-height: 32px;
 	color: var(--Text_Dark, #391400);
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 200%;
-	margin-left: 435px;
 }
 .number-item:hover{
-	font-size: 18px;
 	color: #EF6D58;
 }
 .quotes{
-	max-width: 570px;
-	min-height: 176px;
 border-radius: 6px;
 padding: 42px 32px 32px 112px;
 margin: 0 auto;
@@ -220,15 +206,12 @@ margin-bottom: 76px;
 }
 .quotes p{
 	max-width: 426px;
-	min-height: 102px;
 	color: var(--Text_Dark, #391400);
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 160%;
 }
 .text4{
-	max-width: 570px;
-	min-height: 106px;
 	color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
 	font-size: 16px;
 	font-weight: 400;
@@ -236,7 +219,7 @@ margin-bottom: 76px;
 	margin: 0 auto;
 }
 .project-timeline{
-min-width: 839.692px;
+min-width: 840px;
 min-height: 762px;
 }
 .research{
@@ -275,7 +258,7 @@ h3{
 	line-height: 128.571%;
 }
 .project-timeline p{
-	max-width: 629.692px;
+	max-width: 630px;
 	min-height: 84px;
 	color: var(--Neutral-Colors-Color-600, #6E6C83);
 	font-size: 24px;
@@ -390,7 +373,7 @@ visibility: hidden;
 		margin-top: -15px;
 		visibility: hidden;
 }
-.game-1-1:hover+.game-1-2,
+/* .game-1-1:hover+.game-1-2, Залишу для себе законспектованим, як що можна.
 .game-1-2:hover {
 	visibility: visible;
 }
@@ -429,7 +412,11 @@ visibility: hidden;
 .game-1-10-horizontally:hover+.game-1-11-vertically,
 .game-1-11-vertically:hover {
 	visibility: visible;
-}
+} */
+ .game>*:hover + *,
+ .game>*:hover {
+	visibility: visible;
+ }
 .footer{
 	max-width: 1920px;
 	min-height: 60px;
@@ -441,4 +428,4 @@ visibility: hidden;
 	margin-bottom: 10px;
 	background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 	
-}
+} 
