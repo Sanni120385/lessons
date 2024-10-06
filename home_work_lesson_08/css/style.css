@@ -1,0 +1,199 @@
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url("reset.css");
+
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+}
+body{
+	font-family: DM Sans, sans-serif;
+	background: #FDF0E9;
+}
+.header{
+	min-height: 50px;
+	text-align: center;
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 120%;
+}
+.rastr{
+	margin-bottom: 70px;
+}
+.rastr-01 img {
+	max-width: 1170px;
+}
+.rastr-01 {
+	max-width: 1170px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.rastr p {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 130%;
+}
+.rastr-02 {
+	max-width: 570px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.rastr-02 img {
+	max-width: 570px;
+}
+.rastr-03 {
+	max-width: 1170px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.rastr-03 img {
+	max-width: 1170px;
+}
+.vector {
+	max-width: 700px;
+	margin: 0 auto;
+}
+.vector span {
+	font-size: 24px;
+		font-weight: 600;
+		line-height: 130%;
+}
+.icon-01 {
+	border: solid 2px #EF6D58;
+	border-radius: 15px;
+	padding-inline: 20px;
+	padding-block: 10px;
+	margin-bottom: 40px;
+}
+.icon-01 img {
+	vertical-align: middle;
+	margin-right: 15px;
+}
+.icon-01:hover {
+	box-shadow: 3px 3px 10px 3px #EF6D58;
+}
+.icon-02 {
+	min-height: 140px;
+	border: solid 2px #EF6D58;
+		border-radius: 15px;
+		padding-block: 46px;
+		padding-inline: 50px;
+		margin-bottom: 40px;
+		background: url("../img/icon-svg/oval.svg") 18px 17px /112px no-repeat;
+}
+.icon-02 span {
+	padding-left: 30px;
+}
+.icon-02 img {
+	vertical-align: middle;
+	margin-right: 15px;
+}
+.icon-02:hover {
+	box-shadow: 3px 3px 10px 3px #EF6D58;
+}
+.icon-03 {
+	min-height: 140px;
+	border: solid 2px #EF6D58;
+	border-radius: 15px;
+	padding-block: 50.5px;
+	padding-inline: 50px;
+	margin-bottom: 40px;
+	background: url("../img/icon-svg/oval.svg") 17px 15px /112px no-repeat;
+}
+.icon-03 img {
+	vertical-align: middle;
+	margin-right: 15px;
+}
+.icon-03 span {
+	padding-left: 30px;
+}
+.icon-03:hover {
+	box-shadow: 3px 3px 10px 3px #EF6D58;
+}
+.icon-04 {
+	min-height: 160px;
+	border: solid 2px #EF6D58;
+	border-radius: 15px;
+	padding-block: 64px;
+	padding-inline: 65px;
+	margin-bottom: 40px;
+	background: url("../img/icon-svg/star.svg") 5px 10px /148px no-repeat;
+}
+.icon-04 img {
+	vertical-align: middle;
+	margin-right: 15px;
+}
+.icon-04 span {
+	padding-left: 40px;
+}
+.icon-04:hover {
+	box-shadow: 3px 3px 10px 3px #EF6D58;
+}
+.icon-05 {
+	min-height: 100px;
+	border: solid 2px #EF6D58;
+	border-radius: 15px;
+	padding-block: 10px;
+	padding-inline: 10px;
+	margin-bottom: 40px;
+	
+}
+.icon-05 img {
+	vertical-align: middle;
+	margin-right: 15px;
+}
+.icon-05:hover {
+	box-shadow: 3px 3px 10px 3px #EF6D58;
+}
+.icon-bloc-05 {
+	height: 270px;
+	border: solid 2px #EF6D58;
+	border-radius: 15px;
+	margin-bottom: 40px;
+}
+.icon-bloc-05 p {
+	font-size: 24px;
+		font-weight: 600;
+		line-height: 130%;
+		padding-inline: 50px;
+}
+.icon-bloc-05:hover {
+	box-shadow: 3px 3px 10px 3px #EF6D58;
+}
+.path-06 {
+	border: solid 2px #EF6D58;
+	border-radius: 15px;
+	margin-bottom: 40px;
+	padding-block: 15px;
+	padding-inline: 15px;
+}
+.path-06 p {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 130%;
+	margin-bottom: 10px;
+}
+.path-06:hover {
+	box-shadow: 3px 3px 10px 3px #EF6D58;
+}
+.icon-social {
+	border: solid 2px #EF6D58;
+	border-radius: 15px;
+	padding-inline: 20px;
+	padding-block: 10px;
+	margin-bottom: 40px;
+}
+.icon-social img {
+	vertical-align: middle;
+	margin-right: 15px;
+}
+.icon-social:hover {
+	box-shadow: 3px 3px 10px 3px #EF6D58;
+}
+.footer {
+	min-height: 100px;
+	padding-block: 20px;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 130%;
+	text-align: center;
+}
