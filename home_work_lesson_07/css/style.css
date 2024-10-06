@@ -15,7 +15,7 @@ body{
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 160%;
-	padding-left: 20px;
+	padding-inline: 20px;
 	padding-top: 20px;
 	margin-bottom: 30px;
 	background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
@@ -38,9 +38,8 @@ h1{
 
 .business-price{
 	max-width: 543px;
-	min-height: 617px;
 	border-radius: 56px;
-	background: var(--Neutral-Colors-Color-300, #F0F0F6);
+	background-color: #F0F0F6;
 	padding-block: 24px;
 	padding-inline: 24px;
 	margin: 0 auto;
@@ -92,7 +91,7 @@ padding-inline: 208.49px;
 	font-weight: 700;
 	line-height: 135.714%;
 	background: url("../img/check-circle.svg") 13px 0/36px no-repeat;
-	padding-left: 66.99px;
+	padding-left: 67px;
 }
 .basic-item:hover{
 	text-decoration: underline;
@@ -104,8 +103,7 @@ padding-inline: 208.49px;
 }
 
 .agensy{
-   width: 1440px;
-	min-height: 2234px;
+	width: 100%;
 	background: #FDF0E9;
 	margin: 0 auto;
 	font-family: Epilogue,sans-serif;
@@ -151,6 +149,7 @@ h2{
 	font-weight: 400;
 	line-height: 200%;
 	margin: 0 auto;
+	margin-bottom: 34px;
 }
 .items{
 	margin-bottom: 32px;
@@ -177,6 +176,8 @@ h2{
 	font-weight: 400;
 	line-height: 200%;
 	margin: 0 auto;
+}
+.text3 p:not(:last-child){
 	margin-bottom: 28px;
 }
 .text3{
@@ -218,18 +219,15 @@ margin-bottom: 76px;
 }
 .project-timeline{
 min-width: 840px;
-min-height: 762px;
 }
 .research{
 	max-width: 671px;
-	min-height: 218px;
 	margin: 0 auto;
 	margin-bottom: 54px;
 
 }
 .product{
 	max-width: 671px;
-		min-height: 218px;
 		margin: 0 auto;
 		margin-bottom: 54px;
 }
@@ -240,7 +238,6 @@ min-height: 762px;
 }
 .date{
 	min-width: 88px;
-	min-height: 22px;
 	color: var(--Primary-Colors-Primary-Purple, #4A3AFF);
 	font-size: 20px;
 	font-weight: 700;
@@ -249,7 +246,6 @@ min-height: 762px;
 }
 h3{
 	min-width: 439px;
-	min-height: 54px;
 	color: var(--Neutral-Colors-Color-800, #1E1B39);
 	font-size: 42px;
 	font-weight: 700;
@@ -257,7 +253,6 @@ h3{
 }
 .project-timeline p{
 	max-width: 630px;
-	min-height: 84px;
 	color: var(--Neutral-Colors-Color-600, #6E6C83);
 	font-size: 24px;
 	font-weight: 400;
