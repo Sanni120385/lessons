@@ -1,0 +1,962 @@
+@import url(https://fonts.googleapis.com/css?family=Epilogue:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+@import url("reset.css");
+
+.wrapper{
+	min-height: 100%;
+	overflow: clip;  
+}
+body{
+	font-family: Epilogue, sans-serif;
+	background-color: #7df9ff;
+}
+.header {
+background-color: #7df9ff;
+}
+.header__title {
+		font-size: 30px;
+			font-weight: 800;
+			line-height: 150%;
+			padding-block: 10px;
+			text-align: center;
+			color: black;
+}
+.footer {
+	background-color: #7df9ff;
+}
+.footer__title {
+		font-size: 30px;
+			font-weight: 600;
+			line-height: 120%;
+			padding-block: 10px;
+			text-align: center;
+			color: black;
+}
+h2 {
+	font-size: 30px;
+		font-weight: 600;
+		line-height: 120%;
+		padding-block: 10px;
+		text-align: center;
+		color: black;
+		margin-bottom: 50px;
+		
+}
+.main {
+	background: url("../img/urbanscape-illustration-4908680_1280.webp") 0px -200px/ 1900px no-repeat;
+}
+.avto {
+width: 1520px;
+height: 900px;
+margin-bottom: 50px;
+position: relative;
+animation: move, appearance;
+animation-duration: 20s;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+animation-timing-function: cubic-bezier(0, .02, .99, 1);
+opacity: 0;
+}
+.sign {
+position: absolute;
+top: 630px;
+left: 820px;
+}
+.page-sign {
+	position: absolute;
+top: 610px;
+left: 795px;
+border-radius: 5px;
+}
+.sign::before {
+content: "";
+width: 5px;
+height: 150px;
+background-color: grey;
+}
+
+.avto__frame {
+	width: 350px;
+	height: 70px;
+	
+	background-color: #fefe22;
+	position: absolute;
+	top: 700px;
+	left: 510px;
+border-radius: 80px 900px 10px 100px;
+box-shadow: 0 0 30px 5px black;
+}
+.avto__driver {
+	position: absolute;
+	top: 660px;
+	left: 625px;
+}
+.avto__wheel1 {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: darkgray;
+	border: 4px dashed rgb(0, 0, 0);
+	position: absolute;
+	top: 740px;
+	left: 540px;
+	box-shadow: 0 0 10px 5px black;
+	animation: rotate;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+animation-delay: 2s;
+}
+.avto__wheel2 {
+	width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		background-color: darkgray;
+		border: 4px dashed rgb(0, 0, 0);
+		position: absolute;
+		top: 740px;
+		left: 780px;
+		box-shadow: 0 0 10px 5px black;
+		animation: rotate;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+			animation-delay: 2s;
+}
+.avto__wheel3 {
+width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background-color: darkgray;
+	border: 3px solid rgb(0, 0, 0);
+	position: absolute;
+	top: 747px;
+	left: 787px;
+	box-shadow: 0 0 5px 2px black;
+	animation: rotate;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		animation-delay: 2s;
+}
+.avto__wheel4 {
+width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background-color: darkgray;
+	border: 3px solid rgb(0, 0, 0);
+	position: absolute;
+	top: 747px;
+	left: 547px;
+	box-shadow: 0 0 5px 2px black;
+	animation: rotate;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		animation-delay: 2s;
+}
+.avto__bolts1 {
+width: 20px;
+height: 20px;
+border-radius: 50%;
+background-color: darkgray;
+border: 4px dotted rgb(0, 0, 0);
+position: absolute;
+top: 755px;
+left: 555px;
+animation: rotate;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 2s;
+}
+.avto__bolts2 {
+	width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		background-color: darkgray;
+		border: 4px dotted rgb(0, 0, 0);
+		position: absolute;
+		top: 755px;
+		left: 795px;
+		animation: rotate;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+			animation-delay: 2s;
+}
+.avto__flashlight {
+	width: 30px; ;
+	height: 15px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #f80000;
+	box-shadow: 0px 0px 20px 5px #f80000;
+	position: absolute;
+	top: 720px;
+	left: 507px;
+}
+.avto__flashlight:hover {
+	box-shadow: 0px 0px 50px 30px #f80000;
+}
+.avto__trunk {
+	width: 80px;
+	height: 15px;
+	background-color: #fefe22;
+	border-bottom: 2px solid rgb(0, 0, 0);
+	position: absolute;
+	top: 700px;
+	left: 510px;
+	border-radius: 20px 0 30px 0;
+}
+.avto__door {
+	width: 100px;
+	height: 70px;
+	background-color: #fefe22;
+	border-right: 2px solid rgb(0, 0, 0);
+border-left: 2px solid rgb(0, 0, 0);
+	
+	position: absolute;
+	top: 700px;
+	left: 620px;
+	border-radius: 5px 5px 5px 5px;
+}
+.avto__pen {
+	width: 20px;
+	height: 4px;
+	background-color: black;
+	border-radius: 2px 2px 2px 2px;
+	position: absolute;
+	top: 715px;
+	left: 630px;
+}
+.avto__glaas {
+	width: 7px;
+	height: 50px;
+	position: absolute;
+	top: 658px;
+	left: 702px;
+	background-color: #fefe22;
+	border-left: 2px solid black;
+	transform: rotate(-40deg);
+	border-radius: 3px;
+}
+.avto__glaas2 {
+		width: 4px;
+			height: 45px;
+			position: absolute;
+			top: 658px;
+			left: 709px;
+			background-color: white;
+			opacity: 0.5;
+			/* border-left: 2px solid black; */
+			transform: rotate(-40deg);
+			border-radius: 0 3px 3px 0;
+}
+.avto__hood {
+	width: 95px;
+	height: 5px;
+	background-color: #fefe22;
+	border-radius: 20px 100px 30px 10px;
+	border-bottom: 2px solid rgb(0, 0, 0);
+	position: absolute;
+	top: 702px;
+	left: 720px;
+}
+.avto__safety {
+	width: 25px;
+	height: 30px;
+	background-color: dimgray;
+	position: absolute;
+	top: 670px;
+	left: 595px;
+	border-radius: 100px 5px 0 0;
+	border: 1px solid black;
+}
+.avto__headlight {
+	width: 12px;
+	height: 30px;
+	background-color: white;
+	position: absolute;
+	top: 720px;
+	left: 840px;
+	border-radius: 50px;
+transform: rotate(-35deg);
+border-left: 1px solid black;
+box-shadow: 5px 5px 30px 10px white;
+}
+.avto__headlight:hover {
+	box-shadow: 10px 10px 50px 40px white;
+}
+.avto__bumper1 {
+	width: 10px;
+	height: 23px;
+	border-radius: 3px;
+	background-color: black;
+	position: absolute;
+	top: 750px;
+	left: 853px;
+}
+.avto__bumper2 {
+	width: 20px;
+		height: 23px;
+		border-radius: 3px;
+		background-color: black;
+		position: absolute;
+		top: 750px;
+		left: 505px;
+}
+.avto__pipe {
+	width: 50px;
+	height: 7px;
+	background-color: black;
+	position: absolute;
+	top: 775px;
+	left: 370pt;
+}
+.smoke {
+	position: absolute;
+	top: 735px;
+	left: 325px;
+	transform: rotate(-110deg);
+	transform-origin: top;
+}
+.avto__turn-signal1 {
+	width: 12px;
+	height: 7px;
+	background-color: #ffa500;
+	position: absolute;
+	top: 720px;
+	left: 832px;
+transform: rotate(-35deg);
+border-radius: 3px;
+animation: blinking;
+animation-duration: 0.5s;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+animation-delay: 2s;
+}
+.avto__turn-signal2 {
+		width: 10px;
+			height: 15px;
+			background-color: #ffa500;
+			position: absolute;
+			top: 720px;
+			left: 527px;
+			border-radius: 5px;
+			animation: blinking;
+			animation-duration: 0.5s;
+			animation-direction: alternate;
+			animation-iteration-count: infinite;
+			animation-delay: 2s;
+}
+.avto__turn-signal3 {
+		width: 10px;
+			height: 5px;
+			background-color: #ffa500;
+			position: absolute;
+			top: 720px;
+			left: 730px;
+			border-radius: 4px;
+			animation: blinking;
+			animation-duration: 0.5s;
+			animation-direction: alternate;
+			animation-iteration-count: infinite;
+			animation-delay: 2s;
+}
+@keyframes blinking {
+	0%{
+		box-shadow: 0 0 0px 0px #ffa500;
+	}
+	100%{
+		box-shadow: 0 0 30px 20px #ffa500;
+	}
+}
+@keyframes rotate {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+@keyframes move {
+	0%{
+      transform: translate(-1000px, 0px);
+	}
+	100%{
+		transform: translate(1200px, 0px);
+	}
+}
+@keyframes appearance {
+	0%{
+opacity: 1;
+	}
+	100%{
+opacity: 1;
+	}
+}
+.transformations {
+	width: 1000px;
+	height: 830px;
+margin: 0 auto;
+background-color: blueviolet;
+position: relative;
+border-radius: 20px;
+}
+.transform1 {
+	width: 200px;
+		height: 200px;
+		background-color: gray;
+		border-radius: 10px;
+		position: absolute;
+		top: 40px;
+		left: 40px;
+}
+.transform1__translate {
+	width: 200px;
+	height: 200px;
+	background-color: #39ff14;
+	border: 5px solid black;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	
+}
+.transform1:hover .transform1__translate{
+	transform: translate(20px, 20px);
+	box-shadow: 0px 0px 30px 10px #39ff14;
+}
+.transform2 {
+	width: 200px;
+		height: 200px;
+		background-color: gray;
+		border-radius: 10px;
+		position: absolute;
+		top: 40px;
+		left: 280px;
+}
+.transform2__scale1 {
+	width: 200px;
+		height: 200px;
+		background-color: #39ff14;
+		border: 5px solid black;
+		text-align: center;
+		padding: 10px;
+		border-radius: 10px;
+}
+.transform2:hover .transform2__scale1{
+	transform: scale(1.2);
+	box-shadow: 0px 0px 30px 10px #39ff14;
+}
+.transform3 {
+	width: 200px;
+	height: 200px;
+	background-color: gray;
+	border-radius: 10px;
+	position: absolute;
+	top: 40px;
+	left: 520px;
+}
+
+.transform3__scale2 {
+	width: 200px;
+	height: 200px;
+	background-color: #39ff14;
+	border: 5px solid black;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.transform3:hover .transform3__scale2{
+	transform: scale(0.5);
+	box-shadow: 0px 0px 30px 10px #39ff14;
+}
+.transform4 {
+	width: 200px;
+		height: 200px;
+		background-color: gray;
+		border-radius: 10px;
+		position: absolute;
+		top: 40px;
+		left: 760px;
+}
+
+.transform4__rotate {
+	width: 200px;
+		height: 200px;
+		background-color: #39ff14;
+		border: 5px solid black;
+		text-align: center;
+		padding: 10px;
+		border-radius: 10px;
+}
+.transform4:hover .transform4__rotate {
+transform: rotate(45deg);
+	box-shadow: 0px 0px 30px 10px #39ff14;
+}
+.transform5 {
+		width: 200px;
+			height: 200px;
+			background-color: gray;
+			border-radius: 10px;
+			position: absolute;
+			top: 280px;
+			left: 40px;
+}
+
+.transform5__skew {
+	width: 200px;
+		height: 200px;
+		background-color: #39ff14;
+		border: 5px solid black;
+		text-align: center;
+		padding: 10px;
+		border-radius: 10px;
+}
+.transform5:hover .transform5__skew{
+	transform: skew(20deg, 20deg);
+	box-shadow: 0px 0px 30px 10px #39ff14;
+}
+.transform6 {
+width: 200px;
+	height: 200px;
+	background-color: gray;
+	border-radius: 10px;
+	position: absolute;
+	top: 280px;
+	left: 280px;
+}
+
+.transform6__matrix {
+width: 200px;
+	height: 200px;
+	background-color: #39ff14;
+	border: 5px solid black;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+.transform6:hover .transform6__matrix{
+	transform: matrix(1, 3, 1, 1, 5, 5);
+	box-shadow: 0px 0px 30px 10px #39ff14;
+}
+.transform7 {
+width: 200px;
+	height: 200px;
+	background-color: gray;
+	border-radius: 10px;
+	position: absolute;
+	top: 280px;
+	left: 520px;
+}
+
+.transform7__multi {
+width: 200px;
+	height: 200px;
+	background-color: #39ff14;
+	border: 5px solid black;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+.transform7:hover .transform7__multi{
+	transform: translate(5px, 5px) scale(0.5) rotate(-20deg) skew(20deg);
+	box-shadow: 0px 0px 30px 10px #39ff14;
+}
+.transform8 {
+width: 200px;
+	height: 200px;
+	background-color: gray;
+	border-radius: 10px;
+	position: absolute;
+	top: 280px;
+	left: 760px;
+}
+
+.transform8__transform-original {
+width: 200px;
+	height: 200px;
+	background-color: #39ff14;
+	border: 5px solid black;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+.transform8:hover .transform8__transform-original{
+	transform: rotate(45deg);
+	transform-origin: 0 0;
+	box-shadow: 0px 0px 30px 10px #39ff14;
+}
+
+.transformations__title2 {
+position: absolute;
+top: 500px;
+left: 480px;
+}
+.transform9 {
+width: 200px;
+	height: 200px;
+	background-color: gray;
+	border-radius: 10px;
+	position: absolute;
+	top: 580px;
+	left: 40px;
+	perspective: 400px;
+		perspective-origin: center;
+}
+.transform9__perspective {
+width: 200px;
+	height: 200px;
+	background-color: #39ff14;
+	border: 5px solid black;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+.transform9:hover .transform9__perspective{
+	transform: rotateX(55deg);
+	box-shadow: 0px 0px 30px 10px #39ff14;
+}
+.transform10 {
+	width: 200px;
+		height: 200px;
+		background-color: gray;
+		border-radius: 10px;
+		position: absolute;
+		top: 580px;
+		left: 280px;
+			perspective: 400px;
+				perspective-origin: center;
+}
+
+.transform10__translate3d {
+	width: 200px;
+		height: 200px;
+		background-color: #39ff14;
+		border: 5px solid black;
+		text-align: center;
+		padding: 10px;
+		border-radius: 10px;
+}
+.transform10:hover .transform10__translate3d{
+	transform: translate3d(20px, 20px, 30px);
+	box-shadow: 0px 0px 30px 10px #39ff14;
+}
+.transform11 {
+		width: 200px;
+			height: 200px;
+			background-color: gray;
+			border-radius: 10px;
+			position: absolute;
+			top: 580px;
+			left: 520px;
+			perspective: 400px;
+				perspective-origin: center;
+}
+.transform11__rotate3d {
+	width: 200px;
+		height: 200px;
+		background-color: #39ff14;
+		border: 5px solid black;
+		text-align: center;
+		padding: 10px;
+		border-radius: 10px;
+}
+.transform11:hover .transform11__rotate3d{
+	transform: rotate3d(30, 20, 50, 50deg);
+	box-shadow: 0px 0px 30px 10px #39ff14;
+}
+.transform12 {
+			width: 200px;
+				height: 200px;
+				background-color: rgba(255, 255, 255, 0.4);
+				border-radius: 10px;
+				position: absolute;
+				top: 580px;
+				left: 760px;
+				perspective: 400px;
+					perspective-origin: center;
+					transform-style: preserve-3d;
+}
+
+.transform12__style {
+		width: 200px;
+			height: 200px;
+			background-color: #39ff14;
+			border: 5px solid black;
+			text-align: center;
+			padding: 10px;
+			border-radius: 10px;
+}
+.transform12:hover .transform12__style{
+	transform: rotateX(55deg);
+	box-shadow: 0px 0px 30px 10px #39ff14;
+}
+
+
+.fliper {
+display: inline-block;
+margin-block: 50px;
+margin-inline: 550px;
+
+}
+
+.fliper__body {
+position: relative;
+perspective: 800px;
+
+}
+.fliper__back,
+.fliper__front {
+	transition: all 0.3s;
+	overflow: hidden;
+}
+.fliper__back {
+position: absolute;
+top: 0;
+left: 0;
+
+border: 7px solid black;
+transform: rotateY(180deg);
+}
+
+.fliper__front {
+border: 7px solid black;
+transform: rotateY(0deg);
+backface-visibility: hidden;
+}
+.fliper__body:hover .card__back {
+transform: rotateY(0deg);
+
+}
+.fliper__body:hover .fliper__front {
+	transform: rotateY(-180deg);
+	
+}
+.bike {
+	position: relative;
+	animation-name: move-bike, appearance-bike;
+animation-duration: 20s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(0, .02, .99, 1);
+opacity: 0;
+}
+
+.bike__wheel1 {
+width: 38px;
+height: 38px;
+border-radius: 50%;
+position: absolute;
+top: 670px;
+right: 30px;
+border: 4px solid #000000;
+outline: 3px dashed #000000;
+animation-name: rotate-pedals;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.bike__sleeve1 {
+	width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		position: absolute;
+		top: 685px;
+		right: 46px;
+		border: 4px solid #000000;
+			
+}
+
+.bike__wheel2 {
+	width: 38px;
+		height: 38px;
+		border-radius: 50%;
+		position: absolute;
+		top: 670px;
+		right: 114px;
+		border: 4px solid #000000;
+		outline: 3px dashed #000000;
+animation-name: rotate-pedals;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.bike__sleeve2 {
+		width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			position: absolute;
+			top: 685px;
+			right: 128px;
+			border: 4px solid #000000;
+}
+
+.bike__frame1 {
+	width: 45px;
+	height: 3px;
+	position: absolute;
+	top: 687px;
+	right: 48px;
+	background-color: #39ff14;
+	border-radius: 2px;
+}
+.bike__frame2 {
+		width: 3px;
+			height: 40px;
+			position: absolute;
+			top: 654px;
+			right: 61px;
+			background-color: #39ff14;
+			border-radius: 2px;
+			transform: rotate(-43deg);
+}
+.bike__frame3 {
+			width: 3px;
+				height: 40px;
+				position: absolute;
+				top: 650px;
+				right: 122px;
+				background-color: #39ff14;
+				border-radius: 2px;
+				transform: rotate(25deg);
+}
+.bike__frame4 {
+				width: 3px;
+					height: 35px;
+					position: absolute;
+					top: 660px;
+					right: 104px;
+					background-color: #39ff14;
+					border-radius: 2px;
+					transform: rotate(130deg);
+}
+.bike__frame5 {
+				width: 3px;
+					height: 40px;
+					position: absolute;
+					top: 652px;
+					right: 82px;
+					background-color: #39ff14;
+					border-radius: 2px;
+					transform: rotate(30deg);
+}
+.bike__frame6 {
+				width: 45px;
+					height: 3px;
+					position: absolute;
+					top: 658px;
+					right: 75px;
+					background-color: #39ff14;
+					border-radius: 2px;
+					
+}
+.bike__seat {
+			width: 15px;
+				height: 3px;
+				position: absolute;
+				top: 652px;
+				right: 67px;
+				background-color: black;
+				border-radius: 2px;
+}
+.bike__rudder1 {
+		width: 8px;
+			height: 3px;
+			position: absolute;
+			top: 652px;
+			right: 114px;
+			background-color: black;
+			border-radius: 2px;
+}
+.bike__rudder2 {
+		width: 6px;
+			height: 6px;
+			border-radius: 50%;
+			position: absolute;
+			top: 650px;
+			right: 118px;
+			background-color: black;
+			border-radius: 2px;
+}
+.pedals {
+position: relative;
+}
+.pedals__item1 {
+width: 15px;
+height: 15px;
+border-radius: 50%;
+border: 2px dotted black;
+position: absolute;
+top: 680px;
+right: 85px;
+animation-name: rotate-pedals;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.pedals__item2 {
+	width: 5px;
+		height: 5px;
+		border-radius: 50%;
+		border: 2px solid black;
+		position: absolute;
+		top: 685px;
+		right: 90px;
+		animation-name: rotate-pedals;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+}
+.pedals__item3 {
+		width: 2px;
+			height: 25px;
+			background-color: black;
+			position: absolute;
+			top: 675px;
+			right: 92px;
+			transform: rotate(10deg);
+			animation-name: rotate-pedals;
+				animation-duration: 10s;
+				animation-iteration-count: infinite;
+				animation-timing-function: linear;
+}
+.bike__driver {
+	position: absolute;
+	top: 610px;
+	right: 77px;
+}
+.bike__passenger {
+	position: absolute;
+	top: 517px;
+	right: 45px;
+}
+
+@keyframes rotate-pedals {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(-360deg);
+	}
+}
+@keyframes move-bike {
+	0% {
+		transform: translate(300px, 0px);
+	}
+
+	100% {
+		transform: translate(-1600px, 0px);
+	}	
+}
+@keyframes appearance-bike {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+}
