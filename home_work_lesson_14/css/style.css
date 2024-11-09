@@ -93,7 +93,7 @@ background-color: #A53DFF;
 			line-height: 133%;
 			padding-bottom: 14px;
 			border-bottom: 1px solid #E6E8EB;
-			max-width: 200px;
+			width: 200px;
 			margin-bottom: 24px;
 			margin-right: 24px;
 }
@@ -106,7 +106,7 @@ background-color: #A53DFF;
 			line-height: 133%;
 			padding-bottom: 14px;
 			border-bottom: 1px solid #E6E8EB;
-			max-width: 332px;
+		width: 330px;
 margin-bottom: 24px;
 }
 .form__item5:hover {
