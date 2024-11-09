@@ -128,9 +128,12 @@ margin-bottom: 24px;
 max-width: 141px;
 border-radius: 4px;
 background-color: #A53DFF;
-text-align: center;
+display: flex;
+gap: 12px;
+justify-content: center;
 padding: 12px 24px;
 }
+
 .form__button:hover{
 	box-shadow: 0 0 5px 5px #929fb3;
 }
