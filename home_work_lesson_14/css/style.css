@@ -7,7 +7,6 @@
 	min-height: 100%;
 	overflow: clip;  
 }
-
 .header {
 background-color: #A53DFF;
 }
@@ -120,6 +119,7 @@ margin-bottom: 24px;
 		border-bottom: 1px solid #E6E8EB;
 		margin-bottom: 50px;
 		resize: vertical;
+		min-height: 70px;
 }
 .form__item6:hover {
 	border-bottom: 1px solid #A53DFF;
@@ -165,6 +165,7 @@ padding-block: 50px;
 gap: 50px;
 }
 .form-dark{
+	min-width: 413px;
 display: flex;
 flex-direction: column;
 gap: 16px;
@@ -182,7 +183,6 @@ gap: 16px;
 padding: 20px;
 border-radius: 8px;
 background-color: #141414;
-width: 413px;
 border: 1px solid #262626;
 color: #FFF;
 }
@@ -236,6 +236,7 @@ background-color: #262626;
 			resize: vertical;
 			width: 876px;
 			color: #FFF;
+			min-height: 160px;
 }
 .form-dark__input-05:hover {
 	background-color: #262626;
