@@ -119,12 +119,12 @@ height: 416px;
 	height: 100%;
 	border-radius: 6px;
 }
-.item__text {
+.text-item {
 position: absolute;
 left: 48px;
 bottom: 60px;
 }
-.text__button {
+.text-item__button {
 	font-size: 16px;
 		line-height: 200%;
 		color: #391400;
@@ -134,11 +134,11 @@ bottom: 60px;
 		text-align: center;
 		margin-bottom: 28px;
 }
-.text__button:hover {
+.text-item__button:hover {
 	box-shadow: 0 0 5px 5px #3A3C56;
 	text-decoration: underline;
 }
-.text__title {
+.text-item__title {
 		font-size: 40px;
 			font-weight: 800;
 			line-height: 120%;
@@ -427,7 +427,7 @@ justify-content: center;
 	align-items: flex-end;
 }
 
-.team-top__arrow1 {
+.arrow__item1 {
 	width: 48px;
 		height: 48px;
 		border-radius: 50%;
@@ -436,7 +436,7 @@ justify-content: center;
 		background: url(../img/path2.svg) 17px 17px/14px no-repeat;
 }
 
-.team-top__arrow2 {
+.arrow__item2 {
 	width: 48px;
 		height: 48px;
 		border-radius: 50%;
@@ -444,11 +444,11 @@ justify-content: center;
 		text-align: center;
 		background: url(../img/path3.svg) 17px 17px/14px no-repeat;
 }
-.team-top__arrow1:hover {
+.arrow__item1:hover {
 	box-shadow: 0 0 5px 5px #3A3C56;
 }
 
-.team-top__arrow2:hover {
+.arrow__item2:hover {
 	box-shadow: 0 0 5px 5px #3A3C56;
 }
 .team-foto {
