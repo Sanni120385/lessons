@@ -251,6 +251,10 @@ bottom: 60px;
 	left: 848px;
 	top: -60px;
 }
+.get-started__woman-imag img{
+	width: 239px;
+	height: 396px;
+}
 .events {
 	display: flex;
 	flex-wrap: wrap;
