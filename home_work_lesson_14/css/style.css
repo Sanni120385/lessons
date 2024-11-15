@@ -64,6 +64,24 @@ background-color: #A53DFF;
 .form__item1:hover{
 	border-bottom: 1px solid #A53DFF;
 }
+.form__item1:hover::placeholder {
+	color: #A53DFF;
+}
+.form__item2:hover::placeholder{
+	color: #A53DFF;
+}
+.form__item3:hover::placeholder {
+	color: #A53DFF;
+}
+.form__item4:hover::placeholder {
+	color: #A53DFF;
+}
+.form__item5:hover::placeholder {
+	color: #A53DFF;
+}
+.form__item6:hover::placeholder {
+	color: #A53DFF;
+}
 .form__item2 {
 	font-size: 18px;
 		color: #697484;
