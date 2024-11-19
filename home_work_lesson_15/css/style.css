@@ -12,7 +12,7 @@
 background-color: #F3D1BF;
 }
 .header__title {
-		font-size: 30px;
+		font-size: 40px;
 			font-weight: 800;
 			line-height: 150%;
 			padding-block: 10px;
@@ -20,11 +20,11 @@ background-color: #F3D1BF;
 			color: black;
 }
 .footer {
-	background-color: #F3D1BF;
+	background-color: #e50000;
 }
 .footer__title {
-		font-size: 30px;
-			font-weight: 600;
+		font-size: 40px;
+			font-weight: 800;
 			line-height: 120%;
 			padding-block: 10px;
 			text-align: center;
@@ -749,27 +749,7 @@ font-size: 12px;
 		color: rgba(255, 255, 255, 0.64);
 		line-height: 171%;
 }
-.black-mockup {
-	font-size: 25px;
-	font-weight: 800;
-	color: #141414;
-	background-color: #e50000;
-	border: 1px solid #262626;
-	border-radius: 12px;
-	padding: 20px 15px;
-	display: flex;
-	gap: 10px;
-	align-items: center;
-	max-width: 255px;
-	margin: 0 auto;
-	margin-top: 50px;
-}
-.black-mockup:hover{
-	box-shadow: 0 0 5px 5px #141414;
-}
-.black-mockup img {
-	transform: rotate(-90deg);
-}
+
 
 .dark-theme {
 	font-family: Manrope, sans-serif;
