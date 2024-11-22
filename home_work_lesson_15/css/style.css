@@ -147,7 +147,7 @@ flex-basis: 470px;
 }
 .text-item {
 position: absolute;
-left: 48px;
+inset-inline: 48px;
 bottom: 60px;
 }
 .text-item__button {
@@ -198,15 +198,20 @@ bottom: 60px;
 			position: relative;
 			display: flex;
 			align-items: center;
-			justify-content: center;
+			justify-content: space-evenly;
 			flex-wrap: wrap;
 			margin-bottom: 140px;
+				padding-top: 45px;
 }
-
+.get-started__cloud-imag {
+	position: absolute;
+	top: 48px;
+	left: 810px;
+}
 .get-started__icon {
 	position: absolute;
 		top: -75px;
-		left: 84px;
+		left: 50px;
 		animation-name: icon-rotate;
 		animation-duration: 3s;
 		animation-timing-function: linear;
@@ -273,9 +278,16 @@ bottom: 60px;
 }
 
 .get-started__woman-imag {
-	position: absolute;
-	left: 848px;
-	top: -60px;
+	margin-top: -105px;
+		align-items: flex-end;
+		position: relative;
+		z-index: 3;
+}
+.get-started__woman-imag img {
+	flex: 1 1 239px;
+	width: 239px;
+	height: 396px;
+
 }
 @media(max-width: 1125px){
 .get-started__woman-imag{
@@ -593,7 +605,7 @@ font-size: 12px;
 }
 
 .item-team-cards__foto {
-max-width: 266px;
+max-width: 100%;
 border-radius: 6px;
 }
 
@@ -706,12 +718,13 @@ font-size: 12px;
 		justify-content: center;
 		align-items: end;
 		border-radius: 6px;
-		
+		flex-shrink: 0;
 }
 .paig-founder__img{
 	width: 477px;
 	height: 420px;
 	border-radius: 6px;
+	flex-shrink: 0;
 }
 
 .quotes-info-founder{
