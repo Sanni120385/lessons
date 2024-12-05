@@ -127,6 +127,9 @@ max-width: 7.25rem;
 	background-color: #FFF;
 	border-radius: 19px;
 	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 .portfolio__label:hover{
 	background-color: #28293E;
