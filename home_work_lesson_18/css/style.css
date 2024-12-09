@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Epilogue:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url("reset.css");
+body{
+	font-family: Roboto, sans-serif;
+	
+}
+.wrapper{
+	min-height: 100%;
+	overflow: clip;  
+}
+
+.masonry {
+	background-color: #28293E;
+	padding-block: 3.125rem;
+}
+
+.masonry__container {
+	max-width: 1343px;
+	padding-inline: 15px;
+margin: 0 auto;
+}
+.header__title {
+	background-color: #28293E;
+	font-size: clamp(2rem, 5vw, 4rem);
+	color: #fff;
+	font-weight: 600;
+	text-align: center;
+	padding-block: 1rem;
+	text-transform: uppercase;
+}
+.footer {
+	background-color: #28293E;
+}
+.footer__title {
+	font-size: clamp(2rem, 5vw, 3rem);
+		color: #fff;
+		font-weight: 600;
+		text-align: center;
+		padding-block: 1rem;
+		text-transform: uppercase;
+}
+.masonry__items {
+	display: grid;
+	column-gap: 32px;
+	row-gap: 26px;
+	grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 152px 6px 86px 6px 152px 152px 6px 86px 6px 152px;
+}
+
+.masonry__item {
+background-color: blueviolet;
+text-align: center;
+}
+.masonry__item img{
+	aspect-ratio: 304.25 / 152;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	
+}
+
+.masonry__item:nth-child(17n + 1),
+.masonry__item:nth-child(17n + 4),
+.masonry__item:nth-child(17n + 8),
+.masonry__item:nth-child(17n + 16),
+.masonry__item:nth-child(17n + 10){
+	grid-row: span 2;
+} 
+.masonry__item:nth-child(17n + 2),
+.masonry__item:nth-child(17n + 5),
+.masonry__item:nth-child(17n + 6),
+.masonry__item:nth-child(17n + 7),
+.masonry__item:nth-child(17n + 12),
+.masonry__item:nth-child(17n + 15),
+.masonry__item:nth-child(17n + 14) {
+	grid-row: span 3;
+}
+.masonry__item:nth-child(17n + 13){
+	grid-row: span 5;
+} 
+.masonry__item:nth-child(17n + 3),
+.masonry__item:nth-child(17n + 5),
+.masonry__item:nth-child(17n + 9),
+.masonry__item:nth-child(17n + 11),
+.masonry__item:nth-child(17n + 14),
+.masonry__item:nth-child(17n + 17){
+	max-height: 152px;
+}
+.masonry__item:nth-child(17n + 2),
+.masonry__item:nth-child(17n + 6),
+.masonry__item:nth-child(17n + 7),
+.masonry__item:nth-child(17n + 12),
+.masonry__item:nth-child(17n + 15){
+	max-height: 296px;
+}
+.masonry__item:nth-child(17n + 1),
+.masonry__item:nth-child(17n + 4),
+.masonry__item:nth-child(17n + 8),
+.masonry__item:nth-child(17n + 10),
+.masonry__item:nth-child(17n + 16){
+	max-height: 184px;
+}
+.masonry__item:nth-child(17n + 13){
+	max-height: 506px;
+}
+@media(max-width: 977px){
+	.masonry__items{
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(6, 152px);
+}
+.masonry__item{
+	max-width: 304.25px;
+	max-height: 152px;
+}
+.masonry__item:nth-child(17n + 1),
+.masonry__item:nth-child(17n + 2),
+.masonry__item:nth-child(17n + 3),
+.masonry__item:nth-child(17n + 4),
+.masonry__item:nth-child(17n + 5),
+.masonry__item:nth-child(17n + 6),
+.masonry__item:nth-child(17n + 7),
+.masonry__item:nth-child(17n + 8),
+.masonry__item:nth-child(17n + 9),
+.masonry__item:nth-child(17n + 10),
+.masonry__item:nth-child(17n + 11),
+.masonry__item:nth-child(17n + 12),
+.masonry__item:nth-child(17n + 13),
+.masonry__item:nth-child(17n + 14),
+.masonry__item:nth-child(17n + 15),
+.masonry__item:nth-child(17n + 16),
+.masonry__item:nth-child(17n + 17){
+	grid-row: span 1;
+}
+}
+@media(max-width: 641px){
+		.masonry__items {
+				grid-template-columns: repeat(2, 1fr);
+				grid-template-rows: repeat(9, 152px);
+			}
+						.masonry__item {
+							max-width: 304.25px;
+							max-height: 152px;
+						}
+.masonry{
+	padding-block: 1.5625rem;
+}
+}
+@media(max-width: 550px){
+.masonry__items{
+	column-gap: 16px;
+		row-gap: 13px;
+}
+}
+@media(max-width: 410px){
+		.masonry__items {
+				grid-template-columns: 1fr;
+				grid-template-rows: repeat(17, 152px);
+				
+			}
+						.masonry__item {
+							max-width: 380px;
+							/* max-height: 184px; */
+						}
+}
+@media(max-width: 305px){
+			.masonry__items {
+					grid-template-columns: repeat(1, 1fr);
+					grid-template-rows: repeat(17, 152px);
+				}
+				.masonry__item {
+					max-width: 304.25px;
+					max-height: 152px;
+				}
+}
